@@ -1,0 +1,135 @@
+@charset "UTF-8";
+
+body{
+	margin-top:20px;
+	background:rgb(0, 128, 255);
+}
+.body-background{
+	background-image: url('social.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.prof-pic{
+	border: 1px solid #e1e1e1;
+	width: 250px;
+	height: 250px;
+}
+.logo{
+	margin-left: 2px;
+	text-align: left;
+	color: #0080ff;
+	font-family: Cooper Black;
+}
+.cooper-font{
+	font-family: Cooper Black;
+	text-align: center;
+}
+.cooper-font-left{
+	font-family: Cooper Black;
+	color: #0080ff;
+}
+.button{
+	font-family: Cooper Black;
+	color: #0080ff;
+	padding: 15px 32px;
+	text-align: center;
+	display: inline-block;
+	font-size: 16px;
+	background-color: white;
+	border-radius: 12px;
+	border-color: #0080ff;
+    cursor: pointer;
+}
+.button:hover{
+	background-color: #0080ff;
+	color: white;
+}
+.btnDR{
+	font-family: Cooper Black;
+	color: white;
+	padding: 15px 32px;
+	text-align: center;
+	display: inline-block;
+	font-size: 16px;
+	background-color: #0080ff;
+	border-radius: 12px;
+	border-color: white;
+    cursor: pointer;
+}
+.btnDR:hover{
+	background-color: #413e42;
+	color: white;
+}
+.btnLT{
+	font-family: Cooper Black;
+	color: white;
+	padding: 15px 32px;
+	text-align: center;
+	display: inline-block;
+	font-size: 16px;
+	background-color: #0080ff;
+	border-radius: 12px;
+	border-color: white;
+    cursor: pointer;
+}
+.btnLT:hover{
+	background-color: #ffffff;
+	color: #0080ff;
+}
+.wrong-login{
+	text-align: center;
+	font-family: Cooper Black;
+	color: #0080ff;
+}
+.main-box{
+    background: #FFFFFF;
+    -webkit-box-shadow: 1px 1px 2px 0 #CCCCCC;
+    -moz-box-shadow: 1px 1px 2px 0 #CCCCCC;
+    -o-box-shadow: 1px 1px 2px 0 #CCCCCC;
+    -ms-box-shadow: 1px 1px 2px 0 #CCCCCC;
+    box-shadow: 1px 1px 2px 0 #CCCCCC;
+    margin-bottom: 16px;
+    padding: 20px;
+}
+.main-dark{
+    background: #413e42;
+    -webkit-box-shadow: 1px 1px 2px 0 #CCCCCC;
+    -moz-box-shadow: 1px 1px 2px 0 #CCCCCC;
+    -o-box-shadow: 1px 1px 2px 0 #CCCCCC;
+    -ms-box-shadow: 1px 1px 2px 0 #CCCCCC;
+    box-shadow: 1px 1px 2px 0 #CCCCCC;
+    margin-bottom: 16px;
+    padding: 20px;
+}
+.main-box_2{
+	position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
+}
+a{
+    color: #0080ff;
+	outline: none !important;
+}
+a:hover,
+a:focus {
+	color: #0063c6;
+}
+.table tr > td {
+	font-size: 0.875em;
+	background: #cbdde4;
+	vertical-align: middle;
+	padding: 12px 8px;
+	font-family: Cooper Black;
+	cursor: pointer;
+}
+.td:hover, .td:focus{
+	background: #948196;
+}
+#content{
+	min-height: 300px;
+}
+.profile-detail{
+	font-weight: 900;
+}
